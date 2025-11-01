@@ -21,7 +21,7 @@ and all inside a draggable, toggleable GUI.
 
 # 🧱 Initialization
 ```lua
-local Paste = loadstring(game:HttpGet("YOUR_LIBRARY_URL_HERE"))()
+local Paste = loadstring(game:HttpGet("https://raw.githubusercontent.com/YESYES6TEAM/Paste/refs/heads/main/Source.luaU"))()
 ```
 This loads the Paste library into your script.
 
@@ -149,7 +149,7 @@ The toggle button (circle) at the side of the screen shows/hides the whole UI.
 
 # ⚙️ Example Setup
 ```lua
-local Paste = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUser/PasteLibrary/main/Paste.lua"))()
+local Paste = loadstring(game:HttpGet("https://raw.githubusercontent.com/YESYES6TEAM/Paste/refs/heads/main/Source.luaU"))()
 local ui = Paste:Create("PasteBIN | Sab")
 
 ui:AddButton("Execute Script", function()
